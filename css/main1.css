@@ -1,0 +1,213 @@
+html{
+    height: 100%;
+    margin: 0px;
+	padding: 0px;
+}
+body
+{
+	overflow:scroll;
+}
+.contenedor1{
+  background: url("../img/astro.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: auto auto;
+  padding: 5%;
+  background-size: cover;
+}
+.contenedor2{
+  background: url("../img/astromexico.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover;
+}
+.contenedor3{
+  background: url("../img/autoestima.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover;
+}
+.contenedor4{
+  background: url("../img/economiaverdefete.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover;
+}
+.contenedor5{
+  background: url("../img/feminism.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover;
+}
+.contenedor6{
+  background: url("../img/politica.png") fixed;
+  max-height: auto;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: cover;
+}
+#clock {
+  font-size: 16px;
+  text-align: center;
+  margin: 1em;
+  color: #f20202;
+  font-size: 50px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background: rgba(16,100,209,0.3);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+.imagen
+{
+  background-image:url("../img/ftcbgm.png");
+  background-repeat:no-repeat;
+  background-position: left;
+  background-size: 70px 70px;
+  text-indent:10px;
+  min-width:40px;
+}
+.formaimg1
+{
+	position: relative;
+    width:50%;
+	top: 50px;
+    left: 300px;
+	display:block;
+}
+.formaimg2
+{
+	position: relative;
+	width:50%;
+    top: -100px;
+    left: 750px;
+    display: block;
+}
+
+.formaimg3
+{
+	background-repeat:no-repeat;
+	text-indent:-20px;
+	position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.formaimg4
+{
+	background-repeat:no-repeat;
+	background-position:left;
+	text-indent:-20px;
+	position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.formaimg5
+{
+	background-repeat:no-repeat;
+	background-position:left;
+	text-indent:-20px;
+	position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.formaimg6
+{
+	background-repeat:no-repeat;
+	background-position:left;
+	text-indent:-20px;
+	position: relative;
+    top: 0px;
+    left: 50px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+  margin: 0 100px 0 0 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #0050ba;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #89baf9;
+}
+.margin {
+	
+    margin-top: 100px;
+	margin-right: 0;
+}
+.h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.h1:before,
+.h1:after {
+  content: "";
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.caja {
+font-family: sans-serif;
+font-weight: 400;
+background:#ee0467;
+border-radius: 35px 35px 35px 35px;
+-moz-border-radius: 35px 35px 35px 35px;
+-webkit-border-radius: 35px 35px 35px 35px;
+border: 2px solid #5878ca;
+}
+.texta {
+	font-family: sans-serif;
+	font-weight: auto;
+	border: 1px solid;
+	color: #ffffff;
+	background: #889ccf;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 10px;
+}
